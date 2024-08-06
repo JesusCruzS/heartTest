@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyA6zpR8kZDci8GUyGepS5cC0Ji0g5JjdIw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>356208539046</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.jesus.stepsApp</string>
+	<key>PROJECT_ID</key>
+	<string>stepsapp-6f04f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>stepsapp-6f04f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:356208539046:ios:e7f3966b8ad1f7677e8b67</string>
+</dict>
+</plist>

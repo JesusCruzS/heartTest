@@ -1,24 +1,10 @@
-//
-//  ContentView.swift
-//  stepsApp
-//
-//  Created by Jesus Cruz Suárez on 2/05/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    let stepsRepository = StepsRepository(stepsDataSource: StepsDataSource())
+    let heartRateRepository = HeartRateRepository(heartRateDataSource: HeartRateDataSource())
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        StepsView(stepsRepository: stepsRepository, heartRateRepository: heartRateRepository)
     }
-}
-
-#Preview {
-    ContentView()
 }

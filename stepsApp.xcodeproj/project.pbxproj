@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E0426982C6165B200CD2D18 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5E0426972C6165B100CD2D18 /* GoogleService-Info.plist */; };
+		5E04269B2C61660E00CD2D18 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 5E04269A2C61660E00CD2D18 /* FirebaseAnalytics */; };
+		5E04269D2C61660E00CD2D18 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 5E04269C2C61660E00CD2D18 /* FirebaseAnalyticsOnDeviceConversion */; };
+		5E04269F2C61660E00CD2D18 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 5E04269E2C61660E00CD2D18 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		5E0426A12C61660E00CD2D18 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0426A02C61660E00CD2D18 /* FirebaseAppCheck */; };
+		5E0426A32C61660E00CD2D18 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0426A22C61660E00CD2D18 /* FirebaseAppDistribution-Beta */; };
+		5E0426A52C61697B00CD2D18 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 5E0426A42C61697B00CD2D18 /* FirebaseFirestore */; };
+		5E0426A82C6169F300CD2D18 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0426A62C6169F300CD2D18 /* ViewModel.swift */; };
+		5E0426A92C6169F300CD2D18 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0426A72C6169F300CD2D18 /* StepsView.swift */; };
+		5E0426AB2C616A5100CD2D18 /* StepsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0426AA2C616A5100CD2D18 /* StepsRepository.swift */; };
+		5E0426AD2C616A6B00CD2D18 /* StepsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E0426AC2C616A6B00CD2D18 /* StepsDataSource.swift */; };
+		5E3B14952BE3F21C005FCCBA /* stepsWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B14942BE3F21C005FCCBA /* stepsWatchApp.swift */; };
+		5E3B14972BE3F21C005FCCBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B14962BE3F21C005FCCBA /* ContentView.swift */; };
+		5E3B14992BE3F21D005FCCBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3B14982BE3F21D005FCCBA /* Assets.xcassets */; };
+		5E3B149C2BE3F21D005FCCBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3B149B2BE3F21D005FCCBA /* Preview Assets.xcassets */; };
+		5E3B14A62BE3F21D005FCCBA /* stepsWatch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B14A52BE3F21D005FCCBA /* stepsWatch_Watch_AppTests.swift */; };
+		5E3B14B02BE3F21D005FCCBA /* stepsWatch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B14AF2BE3F21D005FCCBA /* stepsWatch_Watch_AppUITests.swift */; };
+		5E3B14B22BE3F21D005FCCBA /* stepsWatch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3B14B12BE3F21D005FCCBA /* stepsWatch_Watch_AppUITestsLaunchTests.swift */; };
+		5E3B14B52BE3F21D005FCCBA /* stepsWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5E3B14922BE3F21C005FCCBA /* stepsWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5E3B14C32BE3F760005FCCBA /* StepsModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5E3B14C22BE3F760005FCCBA /* StepsModule */; };
+		5E3B14C52BE3F79B005FCCBA /* StepsModule in Frameworks */ = {isa = PBXBuildFile; productRef = 5E3B14C42BE3F79B005FCCBA /* StepsModule */; };
 		5E487F1A2BE3CE6C00073C2C /* stepsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E487F192BE3CE6C00073C2C /* stepsAppApp.swift */; };
 		5E487F1C2BE3CE6C00073C2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E487F1B2BE3CE6C00073C2C /* ContentView.swift */; };
 		5E487F1E2BE3CE6D00073C2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E487F1D2BE3CE6D00073C2C /* Assets.xcassets */; };
@@ -14,9 +35,32 @@
 		5E487F2C2BE3CE6D00073C2C /* stepsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E487F2B2BE3CE6D00073C2C /* stepsAppTests.swift */; };
 		5E487F362BE3CE6D00073C2C /* stepsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E487F352BE3CE6D00073C2C /* stepsAppUITests.swift */; };
 		5E487F382BE3CE6D00073C2C /* stepsAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E487F372BE3CE6D00073C2C /* stepsAppUITestsLaunchTests.swift */; };
+		5EFBFA172C61751100C603EE /* HeartRateDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBFA162C61751100C603EE /* HeartRateDataSource.swift */; };
+		5EFBFA1B2C6175BA00C603EE /* HeartRateRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBFA1A2C6175BA00C603EE /* HeartRateRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		5E3B14A22BE3F21D005FCCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E487F0E2BE3CE6C00073C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3B14912BE3F21C005FCCBA;
+			remoteInfo = "stepsWatch Watch App";
+		};
+		5E3B14AC2BE3F21D005FCCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E487F0E2BE3CE6C00073C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3B14912BE3F21C005FCCBA;
+			remoteInfo = "stepsWatch Watch App";
+		};
+		5E3B14B32BE3F21D005FCCBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E487F0E2BE3CE6C00073C2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E3B14912BE3F21C005FCCBA;
+			remoteInfo = "stepsWatch Watch App";
+		};
 		5E487F282BE3CE6D00073C2C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E487F0E2BE3CE6C00073C2C /* Project object */;
@@ -33,7 +77,38 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		5E3B14B92BE3F21D005FCCBA /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				5E3B14B52BE3F21D005FCCBA /* stepsWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		5E0426972C6165B100CD2D18 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5E0426A62C6169F300CD2D18 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5E0426A72C6169F300CD2D18 /* StepsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		5E0426AA2C616A5100CD2D18 /* StepsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsRepository.swift; sourceTree = "<group>"; };
+		5E0426AC2C616A6B00CD2D18 /* StepsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsDataSource.swift; sourceTree = "<group>"; };
+		5E3B14922BE3F21C005FCCBA /* stepsWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "stepsWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B14942BE3F21C005FCCBA /* stepsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsWatchApp.swift; sourceTree = "<group>"; };
+		5E3B14962BE3F21C005FCCBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E3B14982BE3F21D005FCCBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3B149B2BE3F21D005FCCBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E3B14A12BE3F21D005FCCBA /* stepsWatch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stepsWatch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B14A52BE3F21D005FCCBA /* stepsWatch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsWatch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		5E3B14AB2BE3F21D005FCCBA /* stepsWatch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "stepsWatch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3B14AF2BE3F21D005FCCBA /* stepsWatch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsWatch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		5E3B14B12BE3F21D005FCCBA /* stepsWatch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsWatch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E3B14C02BE3F623005FCCBA /* StepsModule */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = StepsModule; path = ../StepsModule; sourceTree = "<group>"; };
+		5E3B14C62BE3F7AC005FCCBA /* stepsWatch Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "stepsWatch Watch App.entitlements"; sourceTree = "<group>"; };
 		5E487F162BE3CE6C00073C2C /* stepsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stepsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E487F192BE3CE6C00073C2C /* stepsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsAppApp.swift; sourceTree = "<group>"; };
 		5E487F1B2BE3CE6C00073C2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,13 +120,44 @@
 		5E487F312BE3CE6D00073C2C /* stepsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stepsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E487F352BE3CE6D00073C2C /* stepsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsAppUITests.swift; sourceTree = "<group>"; };
 		5E487F372BE3CE6D00073C2C /* stepsAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stepsAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EFBFA162C61751100C603EE /* HeartRateDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateDataSource.swift; sourceTree = "<group>"; };
+		5EFBFA1A2C6175BA00C603EE /* HeartRateRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		5E3B148F2BE3F21C005FCCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B14C52BE3F79B005FCCBA /* StepsModule in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B149E2BE3F21D005FCCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B14A82BE3F21D005FCCBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E487F132BE3CE6C00073C2C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E04269B2C61660E00CD2D18 /* FirebaseAnalytics in Frameworks */,
+				5E04269D2C61660E00CD2D18 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				5E3B14C32BE3F760005FCCBA /* StepsModule in Frameworks */,
+				5E0426A12C61660E00CD2D18 /* FirebaseAppCheck in Frameworks */,
+				5E04269F2C61660E00CD2D18 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				5E0426A32C61660E00CD2D18 /* FirebaseAppDistribution-Beta in Frameworks */,
+				5E0426A52C61697B00CD2D18 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,13 +178,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E3B14932BE3F21C005FCCBA /* stepsWatch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B14C62BE3F7AC005FCCBA /* stepsWatch Watch App.entitlements */,
+				5E3B14942BE3F21C005FCCBA /* stepsWatchApp.swift */,
+				5E3B14962BE3F21C005FCCBA /* ContentView.swift */,
+				5E3B14982BE3F21D005FCCBA /* Assets.xcassets */,
+				5E3B149A2BE3F21D005FCCBA /* Preview Content */,
+			);
+			path = "stepsWatch Watch App";
+			sourceTree = "<group>";
+		};
+		5E3B149A2BE3F21D005FCCBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B149B2BE3F21D005FCCBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E3B14A42BE3F21D005FCCBA /* stepsWatch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B14A52BE3F21D005FCCBA /* stepsWatch_Watch_AppTests.swift */,
+			);
+			path = "stepsWatch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		5E3B14AE2BE3F21D005FCCBA /* stepsWatch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E3B14AF2BE3F21D005FCCBA /* stepsWatch_Watch_AppUITests.swift */,
+				5E3B14B12BE3F21D005FCCBA /* stepsWatch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "stepsWatch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		5E3B14C12BE3F760005FCCBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E487F0D2BE3CE6C00073C2C = {
 			isa = PBXGroup;
 			children = (
+				5E3B14C02BE3F623005FCCBA /* StepsModule */,
 				5E487F182BE3CE6C00073C2C /* stepsApp */,
 				5E487F2A2BE3CE6D00073C2C /* stepsAppTests */,
 				5E487F342BE3CE6D00073C2C /* stepsAppUITests */,
+				5E3B14932BE3F21C005FCCBA /* stepsWatch Watch App */,
+				5E3B14A42BE3F21D005FCCBA /* stepsWatch Watch AppTests */,
+				5E3B14AE2BE3F21D005FCCBA /* stepsWatch Watch AppUITests */,
 				5E487F172BE3CE6C00073C2C /* Products */,
+				5E3B14C12BE3F760005FCCBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +243,9 @@
 				5E487F162BE3CE6C00073C2C /* stepsApp.app */,
 				5E487F272BE3CE6D00073C2C /* stepsAppTests.xctest */,
 				5E487F312BE3CE6D00073C2C /* stepsAppUITests.xctest */,
+				5E3B14922BE3F21C005FCCBA /* stepsWatch Watch App.app */,
+				5E3B14A12BE3F21D005FCCBA /* stepsWatch Watch AppTests.xctest */,
+				5E3B14AB2BE3F21D005FCCBA /* stepsWatch Watch AppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,8 +253,13 @@
 		5E487F182BE3CE6C00073C2C /* stepsApp */ = {
 			isa = PBXGroup;
 			children = (
+				5EFBFA192C61752400C603EE /* Repositories */,
+				5EFBFA182C61751700C603EE /* DataSources */,
+				5E0426A72C6169F300CD2D18 /* StepsView.swift */,
+				5E0426A62C6169F300CD2D18 /* ViewModel.swift */,
 				5E487F192BE3CE6C00073C2C /* stepsAppApp.swift */,
 				5E487F1B2BE3CE6C00073C2C /* ContentView.swift */,
+				5E0426972C6165B100CD2D18 /* GoogleService-Info.plist */,
 				5E487F1D2BE3CE6D00073C2C /* Assets.xcassets */,
 				5E487F1F2BE3CE6D00073C2C /* stepsApp.entitlements */,
 				5E487F202BE3CE6D00073C2C /* Preview Content */,
@@ -129,9 +292,83 @@
 			path = stepsAppUITests;
 			sourceTree = "<group>";
 		};
+		5EFBFA182C61751700C603EE /* DataSources */ = {
+			isa = PBXGroup;
+			children = (
+				5EFBFA162C61751100C603EE /* HeartRateDataSource.swift */,
+				5E0426AC2C616A6B00CD2D18 /* StepsDataSource.swift */,
+			);
+			path = DataSources;
+			sourceTree = "<group>";
+		};
+		5EFBFA192C61752400C603EE /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				5E0426AA2C616A5100CD2D18 /* StepsRepository.swift */,
+				5EFBFA1A2C6175BA00C603EE /* HeartRateRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		5E3B14912BE3F21C005FCCBA /* stepsWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B14B62BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch App" */;
+			buildPhases = (
+				5E3B148E2BE3F21C005FCCBA /* Sources */,
+				5E3B148F2BE3F21C005FCCBA /* Frameworks */,
+				5E3B14902BE3F21C005FCCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "stepsWatch Watch App";
+			packageProductDependencies = (
+				5E3B14C42BE3F79B005FCCBA /* StepsModule */,
+			);
+			productName = "stepsWatch Watch App";
+			productReference = 5E3B14922BE3F21C005FCCBA /* stepsWatch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E3B14A02BE3F21D005FCCBA /* stepsWatch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B14BA2BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch AppTests" */;
+			buildPhases = (
+				5E3B149D2BE3F21D005FCCBA /* Sources */,
+				5E3B149E2BE3F21D005FCCBA /* Frameworks */,
+				5E3B149F2BE3F21D005FCCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3B14A32BE3F21D005FCCBA /* PBXTargetDependency */,
+			);
+			name = "stepsWatch Watch AppTests";
+			productName = "stepsWatch Watch AppTests";
+			productReference = 5E3B14A12BE3F21D005FCCBA /* stepsWatch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E3B14AA2BE3F21D005FCCBA /* stepsWatch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E3B14BD2BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch AppUITests" */;
+			buildPhases = (
+				5E3B14A72BE3F21D005FCCBA /* Sources */,
+				5E3B14A82BE3F21D005FCCBA /* Frameworks */,
+				5E3B14A92BE3F21D005FCCBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E3B14AD2BE3F21D005FCCBA /* PBXTargetDependency */,
+			);
+			name = "stepsWatch Watch AppUITests";
+			productName = "stepsWatch Watch AppUITests";
+			productReference = 5E3B14AB2BE3F21D005FCCBA /* stepsWatch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		5E487F152BE3CE6C00073C2C /* stepsApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5E487F3B2BE3CE6D00073C2C /* Build configuration list for PBXNativeTarget "stepsApp" */;
@@ -139,12 +376,23 @@
 				5E487F122BE3CE6C00073C2C /* Sources */,
 				5E487F132BE3CE6C00073C2C /* Frameworks */,
 				5E487F142BE3CE6C00073C2C /* Resources */,
+				5E3B14B92BE3F21D005FCCBA /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5E3B14B42BE3F21D005FCCBA /* PBXTargetDependency */,
 			);
 			name = stepsApp;
+			packageProductDependencies = (
+				5E3B14C22BE3F760005FCCBA /* StepsModule */,
+				5E04269A2C61660E00CD2D18 /* FirebaseAnalytics */,
+				5E04269C2C61660E00CD2D18 /* FirebaseAnalyticsOnDeviceConversion */,
+				5E04269E2C61660E00CD2D18 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				5E0426A02C61660E00CD2D18 /* FirebaseAppCheck */,
+				5E0426A22C61660E00CD2D18 /* FirebaseAppDistribution-Beta */,
+				5E0426A42C61697B00CD2D18 /* FirebaseFirestore */,
+			);
 			productName = stepsApp;
 			productReference = 5E487F162BE3CE6C00073C2C /* stepsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +443,17 @@
 				LastSwiftUpdateCheck = 1530;
 				LastUpgradeCheck = 1530;
 				TargetAttributes = {
+					5E3B14912BE3F21C005FCCBA = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					5E3B14A02BE3F21D005FCCBA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E3B14912BE3F21C005FCCBA;
+					};
+					5E3B14AA2BE3F21D005FCCBA = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 5E3B14912BE3F21C005FCCBA;
+					};
 					5E487F152BE3CE6C00073C2C = {
 						CreatedOnToolsVersion = 15.3;
 					};
@@ -217,6 +476,9 @@
 				Base,
 			);
 			mainGroup = 5E487F0D2BE3CE6C00073C2C;
+			packageReferences = (
+				5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 5E487F172BE3CE6C00073C2C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -224,17 +486,44 @@
 				5E487F152BE3CE6C00073C2C /* stepsApp */,
 				5E487F262BE3CE6D00073C2C /* stepsAppTests */,
 				5E487F302BE3CE6D00073C2C /* stepsAppUITests */,
+				5E3B14912BE3F21C005FCCBA /* stepsWatch Watch App */,
+				5E3B14A02BE3F21D005FCCBA /* stepsWatch Watch AppTests */,
+				5E3B14AA2BE3F21D005FCCBA /* stepsWatch Watch AppUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		5E3B14902BE3F21C005FCCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B149C2BE3F21D005FCCBA /* Preview Assets.xcassets in Resources */,
+				5E3B14992BE3F21D005FCCBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B149F2BE3F21D005FCCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B14A92BE3F21D005FCCBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E487F142BE3CE6C00073C2C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5E487F222BE3CE6D00073C2C /* Preview Assets.xcassets in Resources */,
 				5E487F1E2BE3CE6D00073C2C /* Assets.xcassets in Resources */,
+				5E0426982C6165B200CD2D18 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,11 +544,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5E3B148E2BE3F21C005FCCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B14972BE3F21C005FCCBA /* ContentView.swift in Sources */,
+				5E3B14952BE3F21C005FCCBA /* stepsWatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B149D2BE3F21D005FCCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B14A62BE3F21D005FCCBA /* stepsWatch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E3B14A72BE3F21D005FCCBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3B14B22BE3F21D005FCCBA /* stepsWatch_Watch_AppUITestsLaunchTests.swift in Sources */,
+				5E3B14B02BE3F21D005FCCBA /* stepsWatch_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5E487F122BE3CE6C00073C2C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EFBFA172C61751100C603EE /* HeartRateDataSource.swift in Sources */,
+				5E0426AD2C616A6B00CD2D18 /* StepsDataSource.swift in Sources */,
+				5E0426A92C6169F300CD2D18 /* StepsView.swift in Sources */,
 				5E487F1C2BE3CE6C00073C2C /* ContentView.swift in Sources */,
+				5EFBFA1B2C6175BA00C603EE /* HeartRateRepository.swift in Sources */,
+				5E0426AB2C616A5100CD2D18 /* StepsRepository.swift in Sources */,
+				5E0426A82C6169F300CD2D18 /* ViewModel.swift in Sources */,
 				5E487F1A2BE3CE6C00073C2C /* stepsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +605,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		5E3B14A32BE3F21D005FCCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3B14912BE3F21C005FCCBA /* stepsWatch Watch App */;
+			targetProxy = 5E3B14A22BE3F21D005FCCBA /* PBXContainerItemProxy */;
+		};
+		5E3B14AD2BE3F21D005FCCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3B14912BE3F21C005FCCBA /* stepsWatch Watch App */;
+			targetProxy = 5E3B14AC2BE3F21D005FCCBA /* PBXContainerItemProxy */;
+		};
+		5E3B14B42BE3F21D005FCCBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E3B14912BE3F21C005FCCBA /* stepsWatch Watch App */;
+			targetProxy = 5E3B14B32BE3F21D005FCCBA /* PBXContainerItemProxy */;
+		};
 		5E487F292BE3CE6D00073C2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 5E487F152BE3CE6C00073C2C /* stepsApp */;
@@ -297,6 +633,155 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		5E3B14B72BE3F21D005FCCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stepsWatch Watch App/stepsWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stepsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stepsWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos diarios";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jesus.stepsApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.stepsApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5E3B14B82BE3F21D005FCCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "stepsWatch Watch App/stepsWatch Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"stepsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = stepsWatch;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos diarios";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.jesus.stepsApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jesus.stepsApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5E3B14BB2BE3F21D005FCCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus.stepsWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stepsWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stepsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5E3B14BC2BE3F21D005FCCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus.stepsWatch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/stepsWatch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/stepsWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		5E3B14BE2BE3F21D005FCCBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus.stepsWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stepsWatch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		5E3B14BF2BE3F21D005FCCBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 647P9UY79L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jesus.stepsWatch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "stepsWatch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
 		5E487F392BE3CE6D00073C2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -414,6 +899,7 @@
 		5E487F3C2BE3CE6D00073C2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = stepsApp/stepsApp.entitlements;
@@ -424,6 +910,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado el dia de hoy";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -452,6 +939,7 @@
 		5E487F3D2BE3CE6D00073C2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = stepsApp/stepsApp.entitlements;
@@ -462,6 +950,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Hola queremos acceder al numero de pasos que ha realizado el dia de hoy";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -580,6 +1069,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		5E3B14B62BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B14B72BE3F21D005FCCBA /* Debug */,
+				5E3B14B82BE3F21D005FCCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B14BA2BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B14BB2BE3F21D005FCCBA /* Debug */,
+				5E3B14BC2BE3F21D005FCCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E3B14BD2BE3F21D005FCCBA /* Build configuration list for PBXNativeTarget "stepsWatch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E3B14BE2BE3F21D005FCCBA /* Debug */,
+				5E3B14BF2BE3F21D005FCCBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5E487F112BE3CE6C00073C2C /* Build configuration list for PBXProject "stepsApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -617,6 +1133,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 11.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E04269A2C61660E00CD2D18 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		5E04269C2C61660E00CD2D18 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		5E04269E2C61660E00CD2D18 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		5E0426A02C61660E00CD2D18 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		5E0426A22C61660E00CD2D18 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		5E0426A42C61697B00CD2D18 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E0426992C61660E00CD2D18 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		5E3B14C22BE3F760005FCCBA /* StepsModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StepsModule;
+		};
+		5E3B14C42BE3F79B005FCCBA /* StepsModule */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = StepsModule;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E487F0E2BE3CE6C00073C2C /* Project object */;
 }
